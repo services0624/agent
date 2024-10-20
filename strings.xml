@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Agent</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="default_web_client_id">58121183272-hjrurk64fan4ra4s03go5ij34pisofsk.apps.googleusercontent.com</string>
+
+</resources>

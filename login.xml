@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="581dp"
+        android:hint="Login"
+        android:padding="5dp"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:inputType="textEmailAddress"
+        android:hint="     Email ID" />
+
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/username1"
+        android:layout_marginTop="50dp"
+        android:hint="     Password"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/signin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:layout_marginTop="50dp"
+        android:text="Sign In"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/nuca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin1"
+        android:layout_marginTop="30dp"
+        android:text="New User! Create Account"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/nuca"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="109dp"
+        android:hint="  Or Login With"
+        android:padding="5dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/google_login"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/nuca"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="110dp"
+        android:hint="Sign Up With Google"
+        android:drawableBottom="@drawable/google" />
+</RelativeLayout>
